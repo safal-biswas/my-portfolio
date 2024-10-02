@@ -1,427 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Creative - Start Bootstrap Theme</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Bootstrap Icons-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- SimpleLightbox plugin CSS-->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css"
-      rel="stylesheet"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>My Portfolio</title>
   </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
-      id="mainNav"
-    >
-      <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#page-top">My Portfolio</a>
-        <button
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto my-2 my-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio"
-                >Projects & Certifications</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-      <div class="container px-4 px-lg-5 h-100">
-        <div
-          class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
-        >
-          <div class="col-lg-8 align-self-end">
-            <h1 class="text-white font-weight-bold">Safal Kumar Biswas</h1>
-            <br />
-            <h3 class="text-white font-weight-bold">
-              Programmer, Web Developer & Graphics Designer
-            </h3>
-            <hr class="divider" />
-          </div>
-          <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 mb-5">
-              A skilled Electrical & Computer Engineering graduate and graphic
-              designer, passionate about web development, specializing in C++,
-              JavaScript, and professional design.
-            </p>
-            <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-          </div>
-        </div>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <div class="style__switcher"></div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <div class="nav container">
+        <a href="index.html" class="nav__logo">Safal Biswas</a>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active__link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Services</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Skills</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
       </div>
     </header>
-    <!-- About-->
-    <section class="page-section bg-primary" id="about">
-      <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2 class="text-white mt-0">About Me</h2>
-            <hr class="divider divider-light" />
-            <p class="text-white-75 mb-4">
-              I'm a fresh graduate in Electrical & Computer Engineering with a
-              strong interest in web development and graphic design. Over the
-              past 4 years, you've honed your skills as a professional designer
-              & developer. I've solid experience in programming with C++ and
-              JavaScript, and mastering the MERN stack. I'm passionate about
-              creating responsive websites and expanding your knowledge in web
-              technologies with goal to build a successful career in the IT
-              sector with good salary and growth opportunities.
-            </p>
-            <a class="btn btn-light btn-xl" href="#services"
-              >More about Skills</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Services-->
-    <section class="page-section" id="services">
-      <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0">My Skills</h2>
-        <hr class="divider" />
-        <div class="row gx-4 gx-lg-5">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-              <h3 class="h4 mb-2">Sturdy Themes</h3>
-              <p class="text-muted mb-0">
-                Our themes are updated regularly to keep them bug free!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <div class="mb-2">
-                <i class="bi-laptop fs-1 text-primary"></i>
-              </div>
-              <h3 class="h4 mb-2">Up to Date</h3>
-              <p class="text-muted mb-0">
-                All dependencies are kept current to keep things fresh.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-              <h3 class="h4 mb-2">Ready to Publish</h3>
-              <p class="text-muted mb-0">
-                You can use this design as is, or you can make changes!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-              <h3 class="h4 mb-2">Made with Love</h3>
-              <p class="text-muted mb-0">
-                Is it really open source if it's not made with love?
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio-->
-    <div id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row g-0">
-          <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="assets/img/portfolio/fullsize/1.jpg"
-              title="Project Name"
-            >
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/thumbnails/1.jpg"
-                alt="..."
-              />
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">Category</div>
-                <div class="project-name">Project Name</div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="assets/img/portfolio/fullsize/2.jpg"
-              title="Project Name"
-            >
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/thumbnails/2.jpg"
-                alt="..."
-              />
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">Category</div>
-                <div class="project-name">Project Name</div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="assets/img/portfolio/fullsize/3.jpg"
-              title="Project Name"
-            >
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/thumbnails/3.jpg"
-                alt="..."
-              />
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">Category</div>
-                <div class="project-name">Project Name</div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="assets/img/portfolio/fullsize/4.jpg"
-              title="Project Name"
-            >
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/thumbnails/4.jpg"
-                alt="..."
-              />
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">Category</div>
-                <div class="project-name">Project Name</div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="assets/img/portfolio/fullsize/5.jpg"
-              title="Project Name"
-            >
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/thumbnails/5.jpg"
-                alt="..."
-              />
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">Category</div>
-                <div class="project-name">Project Name</div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="assets/img/portfolio/fullsize/6.jpg"
-              title="Project Name"
-            >
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/thumbnails/6.jpg"
-                alt="..."
-              />
-              <div class="portfolio-box-caption p-3">
-                <div class="project-category text-white-50">Category</div>
-                <div class="project-name">Project Name</div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-      <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-8 col-xl-6 text-center">
-            <h2 class="mt-0">Let's Get In Touch!</h2>
-            <hr class="divider" />
-            <p class="text-muted mb-5">
-              Ready to start your next project with me? Or Hire me? Send a
-              messages and I will get back to you as soon as possible!
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hello</span>
+            <h1 class="home__title">
+              <span>I'm</span> Safal Biswas <br />
+              a <span>Web Developer</span>
+            </h1>
+            <p class="home__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              magnam deleniti amet impedit nemo placeat sapiente quasi rem
+              ratione rerum facere dolore, repellendus molestiae inventore
+              dolores quibusdam totam, quod dolorum.
             </p>
+
+            <div class="home__btns">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#portfolio" class="btn btn__transparent">Portfolio</a>
+            </div>
+          </div>
+
+          <div class="home__img-wrapper">
+            <img src="assets/img/profile.JPG" alt="" class="home__img" />
           </div>
         </div>
-        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-          <div class="col-lg-6">
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-              <!-- Name input-->
-              <div class="form-floating mb-3">
-                <input
-                  class="form-control"
-                  id="name"
-                  type="text"
-                  placeholder="Enter your name..."
-                  data-sb-validations="required"
-                />
-                <label for="name">Full name</label>
-                <div class="invalid-feedback" data-sb-feedback="name:required">
-                  A name is required.
-                </div>
-              </div>
-              <!-- Email address input-->
-              <div class="form-floating mb-3">
-                <input
-                  class="form-control"
-                  id="email"
-                  type="email"
-                  placeholder="name@example.com"
-                  data-sb-validations="required,email"
-                />
-                <label for="email">Email address</label>
-                <div class="invalid-feedback" data-sb-feedback="email:required">
-                  An email is required.
-                </div>
-                <div class="invalid-feedback" data-sb-feedback="email:email">
-                  Email is not valid.
-                </div>
-              </div>
-              <!-- Phone number input-->
-              <div class="form-floating mb-3">
-                <input
-                  class="form-control"
-                  id="phone"
-                  type="tel"
-                  placeholder="(123) 456-7890"
-                  data-sb-validations="required"
-                />
-                <label for="phone">Phone number</label>
-                <div class="invalid-feedback" data-sb-feedback="phone:required">
-                  A phone number is required.
-                </div>
-              </div>
-              <!-- Message input-->
-              <div class="form-floating mb-3">
-                <textarea
-                  class="form-control"
-                  id="message"
-                  type="text"
-                  placeholder="Enter your message here..."
-                  style="height: 10rem"
-                  data-sb-validations="required"
-                ></textarea>
-                <label for="message">Message</label>
-                <div
-                  class="invalid-feedback"
-                  data-sb-feedback="message:required"
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/about.JPG" class="about__img" />
+            <img src="assets/img/about.JPG" class="about__img" />
+            <img src="assets/img/about.JPG" class="about__img" />
+            <img src="assets/img/about.JPG" class="about__img" />
+          </div>
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am I?">
+              I'm Safal Biswas, a Programmer and Web Developer
+            </h2>
+
+            <p class="about__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste
+              beatae hic inventore possimus. Beatae hic aliquid natus aperiam
+              ratione consectetur accusantium consequatur, commodi reiciendis
+              voluptatem soluta fugiat, sint maxime ab fugit quo. Ducimus esse,
+              dignissimos minus voluptates repellat vero, iure nulla sit
+              nesciunt unde voluptatum quo non deleniti provident!
+            </p>
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <span class="data__description">Safal Biswas</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">25 Years</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">From:</h3>
+                <span class="data__description">Bangladesh</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email:</h3>
+                <span class="data__description about__link"
+                  >safalbiswas005@gmail.com</span
                 >
-                  A message is required.
-                </div>
+              </li>
+            </ul>
+
+            <div class="about__bottom">
+              <a href="assets/pdf/Safal_Biswas_Resume.pdf" class="btn"
+                >Download CV</a
+              >
+
+              <div class="about__social-links">
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
               </div>
-              <!-- Submit success message-->
-              <!---->
-              <!-- This is what your users will see when the form-->
-              <!-- has successfully submitted-->
-              <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center mb-3">
-                  <div class="fw-bolder">Form submission successful!</div>
-                </div>
-              </div>
-              <!-- Submit error message-->
-              <!---->
-              <!-- This is what your users will see when there is-->
-              <!-- an error submitting the form-->
-              <div class="d-none" id="submitErrorMessage">
-                <div class="text-center text-danger mb-3">
-                  Error sending message!
-                </div>
-              </div>
-              <!-- Submit Button-->
-              <div class="d-grid">
-                <button
-                  class="btn btn-primary btn-xl disabled"
-                  id="submitButton"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-4 text-center mb-5 mb-lg-0">
-            <i class="bi-phone fs-2 mb-3 text-muted"></i>
-            <div>+8801781-36031</div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer-->
-    <footer class="bg-light py-5">
-      <div class="container px-4 px-lg-5">
-        <div class="small text-center text-muted">
-          Copyright &copy; Safal Kumar Biswas
-        </div>
-      </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- SimpleLightbox plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification"></section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services" id="services"></section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills" id="skills"></section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="works" id="works"></section>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonials"></section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact" id="contact"></section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
   </body>
 </html>
