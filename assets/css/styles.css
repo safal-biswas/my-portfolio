@@ -36,6 +36,11 @@
 /*=============== DARK THEME ===============*/
 
 /*=============== BASE ===============*/
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -437,7 +442,6 @@
 .skill__title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .skill__title {
