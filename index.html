@@ -385,27 +385,29 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
                         <div class="form__group">
+                            <input type="hidden" name="access_key" value="a9934537-f5d5-471a-a5ea-462d17399dd1" />
                             <div class="form__name-email">
                                 <div class="form__input">
-                                    <input type="text" placeholder="Name" class="input__control" />
+                                    <input type="text" name="name" required placeholder="Name" class="input__control" />
                                 </div>
 
                                 <div class="form__input">
-                                    <input type="email" placeholder="Email" class="input__control" />
+                                    <input type="email" name="email" required placeholder="Email" class="input__control" />
                                 </div>
                             </div>
 
                             <div class="form__input">
-                                <input type="text" placeholder="Subject" class="input__control" />
+                                <input type="text" name="subject" placeholder="Subject" class="input__control" />
                             </div>
 
                             <div class="form__input">
-                                <textarea name="" id="" placeholder="Message" cols="30" rows="10" class="input__control textarea"></textarea>
+                                <textarea name="message" required id="" placeholder="Message" cols="30" rows="10" class="input__control textarea"></textarea>
                             </div>
                         </div>
-                        <button class="btn contact__btn">Send Message</button>
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                        <button type="submit" class="btn contact__btn">Send Message</button>
                     </form>
                 </div>
             </section>
